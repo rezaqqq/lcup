@@ -1,5 +1,5 @@
 *
 !.gitignore
 !main.py
-!templates/files.html
+!/templates/
 !README.md
