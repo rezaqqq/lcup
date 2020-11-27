@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form method="POST" action="upload" enctype="multipart/form-data">
+            <p><input type="file" name="file"></p>
+            <p><input type="submit" value="Submit"></p>
+          </form>
+    <ul id="download me">
+        <h1>the files</h1>
+            {% for item in listoffiles %}
+                <li><a href="files/{{item}}">{{item}}</a></li>
+                {% endfor %}
+        </ul>
+    </body>
+</html>
